@@ -8,11 +8,15 @@
   margin-right:0;
   text-align:left;
 }
+.form_sketch {
+  border-color:transparent;
+  background-color:transparent;
+}
 #base {
   position:absolute;
   z-index:0;
 }
-#u17552_img {
+#u3807_img {
   border-width:0px;
   position:absolute;
   left:0px;
@@ -20,20 +24,25 @@
   width:391px;
   height:856px;
 }
-#u17552 {
+#u3807 {
   border-width:0px;
   position:absolute;
   left:0px;
   top:0px;
   width:391px;
   height:856px;
+  display:flex;
 }
-#u17552_text {
-  border-width:0px;
+#u3807 .text {
   position:absolute;
-  left:0px;
-  top:0px;
-  width:0px;
-  visibility:hidden;
+  align-self:center;
+  padding:2px 2px 2px 2px;
+  box-sizing:border-box;
+  width:100%;
+}
+#u3807_text {
+  border-width:0px;
   word-wrap:break-word;
+  text-transform:none;
+  visibility:hidden;
 }
